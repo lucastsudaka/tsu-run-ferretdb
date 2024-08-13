@@ -18,6 +18,7 @@ type EntryParams struct {
 
 func main() {
 
+        // quebrou tudo
 	go forever()
 	quitChannel := make(chan os.Signal, 1)
 	ctx, cancel := context.WithCancel(context.Background())
